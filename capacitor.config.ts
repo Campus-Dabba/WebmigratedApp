@@ -5,10 +5,9 @@ const config: CapacitorConfig = {
   appName: 'CampusDabba',
   webDir: 'out',
   server: {
-    url: 'https://campusdabba0.netlify.app',
+    url: 'http://localhost:3000',
     cleartext: true,
-    androidScheme: 'https',
-    allowNavigation: ['https://campusdabba0.netlify.app', 'https://*.supabase.co', 'https://*.supabase.io']
+    allowNavigation: ['http://localhost:3000', 'https://*.supabase.co', 'https://*.supabase.io']
   },
   plugins: {
     SplashScreen: {

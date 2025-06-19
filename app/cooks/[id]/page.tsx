@@ -15,11 +15,6 @@ import { useToast } from "@/components/ui/use-toast";
 import { createClient } from "@/utils/supabase/client";
 import { dayMapping } from "@/components/student/dashboard/types";
 
-// Required for static export
-export async function generateStaticParams() {
-  return [];
-}
-
 export type DayOfWeek = 1 | 2 | 3 | 4 | 5 | 6 | 7;
 
 export const getCurrentDayNumber = (): DayOfWeek => {
