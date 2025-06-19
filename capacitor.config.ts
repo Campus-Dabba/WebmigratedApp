@@ -5,8 +5,8 @@ const config: CapacitorConfig = {
   appName: 'CampusDabba',
   webDir: 'out',
   server: {
-    url: 'http://localhost:3000',
-    cleartext: true,
+    url: 'https://campusdabba.netlify.app',
+    cleartext: false,
     allowNavigation: ['http://localhost:3000', 'https://*.supabase.co', 'https://*.supabase.io']
   },
   plugins: {
