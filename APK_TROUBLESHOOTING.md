@@ -83,7 +83,7 @@ adb install -r CampusDabba.apk
 ### If app installs but shows blank/white screen:
 
 1. **Check your website** is working:
-   - Open https://campusdabba0.netlify.app in phone browser
+   - Open https://webconvertedapp.netlify.app in phone browser
    - Make sure it loads properly
 
 2. **Clear WebView cache**:
@@ -129,7 +129,7 @@ If the current APK doesn't work, let's rebuild with better compatibility:
    <?xml version="1.0" encoding="utf-8"?>
    <network-security-config>
        <domain-config cleartextTrafficPermitted="true">
-           <domain includeSubdomains="true">campusdabba0.netlify.app</domain>
+           <domain includeSubdomains="true">webconvertedapp.netlify.app</domain>
        </domain-config>
    </network-security-config>
    ```
@@ -185,7 +185,7 @@ echo "Try installing CampusDabba-fixed.apk"
 If APK still doesn't work:
 
 1. **Use Chrome's "Add to Home Screen"**:
-   - Open https://campusdabba0.netlify.app in Chrome
+   - Open https://webconvertedapp.netlify.app in Chrome
    - Menu → Add to Home Screen
    - Creates app-like shortcut
 
@@ -197,7 +197,7 @@ If APK still doesn't work:
 
 1. **Android version** of your phone?
 2. **Have you enabled Unknown Sources**?
-3. **Does https://campusdabba0.netlify.app work in your phone browser**?
+3. **Does https://webconvertedapp.netlify.app work in your phone browser**?
 4. **Any error messages** when trying to install?
 
 Let me know the answers and I'll provide specific fixes!

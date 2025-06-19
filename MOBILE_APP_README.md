@@ -13,7 +13,7 @@ Your CampusDabba web app has been successfully converted to native Android APKs:
 ### App Details:
 - **App Name**: CampusDabba
 - **Package ID**: com.arnav.campusdabba
-- **Web URL**: https://campusdabba0.netlify.app
+- **Web URL**: https://webconvertedapp.netlify.app
 - **Type**: WebView wrapper (loads your live website)
 
 ### Features Included:
@@ -52,7 +52,7 @@ Your CampusDabba web app has been successfully converted to native Android APKs:
 
 Since this is a WebView wrapper, updating your app is super easy:
 
-1. **Make changes to your website** on https://campusdabba0.netlify.app
+1. **Make changes to your website** on https://webconvertedapp.netlify.app
 2. **Deploy changes** to Netlify (as you normally do)
 3. **Users automatically get updates** when they open the app!
 
@@ -105,7 +105,7 @@ zipalign -v 4 app-release-unsigned.apk CampusDabba-signed.apk
 ### Common Issues:
 
 1. **App won't install**: Enable "Unknown Sources" in Android settings
-2. **Website not loading**: Check internet connection and ensure https://campusdabba0.netlify.app is accessible
+2. **Website not loading**: Check internet connection and ensure https://webconvertedapp.netlify.app is accessible
 3. **Authentication issues**: Same as web - check Supabase configuration
 4. **Performance issues**: The app loads your website, so performance depends on your site and internet connection
 
